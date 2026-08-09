@@ -1,0 +1,6 @@
+"experience_id","position_id","name","description","hyperlink","start_date","end_date"
+"1","2","Smart Home IoT System","Developed a smart home system using ESP32, Firebase, sensors, RFID authentication, and remote device control.","", "2025-01-01",NULL
+"2","2","Embedded Systems Projects","Designed and programmed embedded systems using Arduino and ESP32 with UART, I2C, SPI, MQTT, and sensor integration.","","2025-02-01",NULL
+"3","2","Electronics and PCB Design","Worked on electronic circuit design, troubleshooting, and PCB development using tools such as EasyEDA and Proteus.","","2025-02-01",NULL
+"4","3","Project Coordination Activities","Managed project follow-up, reporting, scheduling, and coordination between different teams.","","2024-01-01","2025-01-01"
+"5","1","Graduation Project","Developed a final year project applying computer systems engineering concepts and hardware-software integration.","","2025-01-01","2025-10-31"

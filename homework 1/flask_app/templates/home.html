@@ -1,0 +1,82 @@
+{% extends 'layout.html' %}
+{#
+  home.html - the landing page of your AI agent portfolio.
+
+  This page extends layout.html, which provides the nav bar and footer.
+  Everything inside the block content / endblock tags is YOUR content.
+
+  NOTE: This is one of the two files you should customize for the homework.
+        Replace the placeholder text and image below with your own bio.
+        The other file to edit is flask_app/database/initial_data/*.csv
+#}
+
+{% block content %}
+
+<div class="home-container">
+
+  <!-- Profile section -->
+  <div class="profile-section">
+
+    <!-- Profile photo -->
+    <img
+      src="{{ url_for('static', filename='images/headshot.png') }}"
+      alt="Profile photo"
+      class="profile-photo"
+    >
+
+    <div class="profile-text">
+
+      <!-- Your name -->
+      <h1>Naeem Ahmed Alawity</h1>
+
+      <!-- Your title -->
+      <p class="subtitle">Computer Systems Engineer · Embedded Systems & IoT Specialist</p>
+
+      <!-- Your bio -->
+      <p>
+        I'm a Computer Systems Engineer specializing in Embedded Systems, Internet of Things (IoT),
+        and electronics. My work focuses on developing smart systems, hardware-software integration,
+        and embedded applications using technologies such as ESP32, Arduino, and modern software tools.
+      </p>
+
+      <a href="/resume" class="btn">View My Resume →</a>
+
+    </div>
+  </div>
+
+
+  <!-- Course info section -->
+  <div class="info-cards">
+
+    <div class="card">
+      <h3>What This App Is</h3>
+      <p>
+        This is my AI Agent portfolio — a web application that uses a language model
+        to answer questions about my resume. It presents my education, professional
+        experience, projects, and technical skills.
+      </p>
+    </div>
+
+
+    <div class="card">
+      <h3>My Technical Focus</h3>
+      <p>
+        My interests include Embedded Systems, IoT solutions, electronics design,
+        microcontrollers, and developing intelligent hardware-software systems.
+      </p>
+    </div>
+
+
+    <div class="card">
+      <h3>Try the AI Chat</h3>
+      <p>
+        Visit the <a href="/resume">Resume page</a> and ask the AI assistant questions
+        about my education, experience, projects, and technical skills.
+      </p>
+    </div>
+
+  </div>
+
+</div>
+
+{% endblock %}
